@@ -1,36 +1,38 @@
-body
+/*this determines the text size for the entire document*/
+body {
   font-size: 14px;
 }
-
+/*this determines the specifications for the nav bar background*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/*this determines the box length that each div will have as a background*/
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*this overrides the body font size, allowing the nav bar to have a larger font*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
-
+/*this centers and creates space for the text elements*/
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
-
+/*overrides text size for text elements inside the divs*/
 h3 {
   font-size: 1.3em;
 }
-
+/*determines the properties for the design of the green boxes in the background*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
